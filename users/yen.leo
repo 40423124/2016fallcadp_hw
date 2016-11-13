@@ -281,7 +281,7 @@ print("hello")
 
 
 
-[Blog](https://40423124.github.io/2016fallcadp_hw/blog/)
+[Blog](https://40423124.github.io/2016fallcadp_hw/blog/index.html)
 
 
 </t>
