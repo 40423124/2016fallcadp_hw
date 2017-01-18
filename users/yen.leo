@@ -217,69 +217,6 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
-<t tx="leo.20161010174437.1">@language md
-Title: 40423124 上課筆記
-Date: 2016-09-29 11:00
-Category: 上課筆記
-Tags: 筆記
-Author: 40423124
-40423124 11/24上課筆記
-&lt;iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2F40423105.github.io%2F2016fallcadp_hw%2F%23%2F&amp;width=200&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId" width="200" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"&gt;&lt;/iframe&gt;
-
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-&lt;p&gt;9/22筆記&lt;/p&gt;
-&lt;p&gt;網址:http://chiamingyen.github.io/kmolab/blog/index.html&lt;/p&gt;
-&lt;p&gt;下載網址:140.130.17.17(只能在學校裡使用) 2016fall裡的檔案倒數兩個擇一下載(ana2016fall_os(3.0g)or mini2016fall.7z(98m))&lt;/p&gt;
-&lt;p&gt;1.創2016fallcadp_hw 將README打勾 格式:python 加密:agpl&lt;/p&gt;
-&lt;p&gt; 新增gh-pages分支 進入setting 點branches 將master變更為gh-pages 點update&lt;/p&gt;
-&lt;p&gt;2.git clone 2016fallcadp_hw&lt;/p&gt;
-&lt;p&gt;  cd 2016fallcadp_hw&lt;/p&gt;
-&lt;p&gt;git branch&lt;/p&gt;
-&lt;p&gt;git checkout gh-pages&lt;/p&gt;
-&lt;p&gt;git branch(再次檢查)&lt;/p&gt;
-&lt;p&gt;3.創 學號.github.io  將README打勾 格式:python 加密:agpl&lt;/p&gt;
-&lt;p&gt;點選create new file &lt;/p&gt;
-&lt;p&gt;打入index.html&lt;/p&gt;
-&lt;p&gt;點commit new file&lt;/p&gt;
-&lt;p&gt;4.創 2016fallcadp_ag100(組別)  將README打勾 格式:python 加密:agpl&lt;/p&gt;
-&lt;p&gt;將2016fallcadp_ag100 clone下來&lt;/p&gt;
-&lt;p&gt;cd 2016fallcadp_ag100&lt;/p&gt;
-&lt;p&gt;git branch&lt;/p&gt;
-&lt;p&gt;git checkout gh-pages&lt;/p&gt;
-&lt;p&gt;git branch(再次檢查)&lt;/p&gt;
-&lt;p&gt;將自己的2016fallcadp_hw clone網址複製&lt;/p&gt;
-&lt;p&gt;git submodule add -b gh-pages 網址 學號&lt;/p&gt;
-&lt;p&gt;git staus(檢查)&lt;/p&gt;
-&lt;p&gt; 依序將隊友的資料夾加入&lt;/p&gt;
-&lt;p&gt;git add -A&lt;/p&gt;
-&lt;p&gt;git commit -m "名稱"&lt;/p&gt;
-&lt;p&gt; git push origin gh-pages&lt;/p&gt;
-&lt;p&gt; 完成 &lt;/p&gt;
-
-&lt;p&gt; 9/29筆記 &lt;/p&gt;
-&lt;p&gt;1.radinsed半徑 2.diameter直徑 3.place放置 4.symmetrically對稱 5.lnitially開始 6.oriented定位 7.axes軸
-  8.indicated表示 9.respectively分別 10.parallel平行 11.extruding長出 12.automatically自動 13.coincident一模一樣
-  14.constraint約束 15.horizontal橫 16.perpendicular垂直 17.step圖(格式) &lt;/p&gt;
-&lt;p&gt; 錄影工具:sharex&lt;/p&gt;
-&lt;p&gt;   1.paths &lt;/p&gt;
-&lt;p&gt; 2.task → screen   recorder →  options&lt;/p&gt;
-&lt;p&gt; 開始錄製:shift+ print screen &lt;/p&gt;
-
-&lt;p&gt; 射出成型軟體:moldex3d&lt;/p&gt;
-&lt;p&gt;簡報:shower.js  &lt;/p&gt;
-
-&lt;p&gt;9/29作業&lt;/p&gt;
-&lt;p&gt;成品影片:https://vimeo.com/185029053 &lt;/p&gt;
-
-&lt;p&gt;10/6筆記&lt;/p&gt;
-&lt;p&gt; proxy設定:proxy.mde.tw 通訊阜:3128&lt;/p&gt;
-&lt;p&gt;去聲音指令:ffmpeg.exe -i 檔名 -c copy -an out.mp4&lt;/p&gt;
-&lt;p&gt;字幕指令:ffmpeg.exe -i out.mp4 -vf subtitles=in.srt out2.mp4&lt;/p&gt;
-&lt;p&gt;安裝pelican指令:pip install pelican&lt;/p&gt;
-
-</t>
 <t tx="leo.20161124144859.1">@language python
 import os
 import subprocess
